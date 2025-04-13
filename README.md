@@ -54,14 +54,72 @@ Start by forking this repository to your own GitHub account. Click the button be
 
 🚀 Deploy JAVA-MD
 
-> View Workflow Codes
+
+    **Option G: Deploy In Panel**
+ 1. First You Have to Sign up on discord using web or app then click below.
+2. [Sign Up In Panel]([https://dashboard.katabump.com/auth/login#005b36]) if you don’t have Already.
+4. Click the button below to deploy using Panel:
+   <br>
+   <a href='https://dashboard.katabump.com/auth/login#005b36' target="_blank">
+      <img alt='Deploy In Panel' src='https://img.shields.io/badge/-DEPLOY-green?style=for-the-badge&logo=Cloudflare&logoColor=white'/>
+   </a>
+   
+      **Tutorial For Panel**
+1. First You Have to Sign up on discord using web or app download from playstore.
+   <br>
+   <a href='https://www.youtube.com/watch?v=OG_lKusqAjE' target="_blank">
+      <img alt='Deployment Tutorial' src='https://img.shields.io/badge/-Tutorial-red?style=for-the-badge&logo=youtube&logoColor=white'/>
+   </a>
+   
+ 
+ <h4 align="center">8. Workflow</h4>
+<p style="text-align: center; font-size: 1.2em;">
 
 
+<details>
 
-<p align="left">  
-<a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/1368" target="_blank"><img alt='View Workflow Codes' src='https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white'/></a>  
-</p>  
----
+<b><strong><summary align="center" style="color: Yello;">Deploy On Workflow</summary></strong></b>
+<p style="text-align: center; font-size: 1.2em;">
+ 
+<h8>Copy the workflow codes and then frok the repo edit config add session id then save and now click on repo action tag then click on start new workflow then paste workflow codes name them deploy and save the file</h8>
+<h3 align-"center"> Important</h3>
+<h6 align-"center">Attention! I do not take responsibility if your github account is suspended through this Deploy method, I advise you not to use this workflow deploy method in the latest github accounts, github accounts created a year or more ago have not received the risk of suspension so far, this works It will only be done for 6 hours, you need to update the code to reactivate it.</h6>
+
+```
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
 
 ⚠️ Disclaimer
 
