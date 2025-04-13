@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=ff0000&center=true&width=1000&height=200&lines=KHAN-MD-V4.0" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=neon&center=true&width=1000&height=200&lines=JAVA-MD" alt="Typing SVG" /></a>
   </p>
   
 ---  
@@ -6,7 +6,7 @@
 > **`Updated To` The Version 4.0**
 --- 
 
-<a><img src='https://qu.ax/KYyBq.jpg/></a>
+<a><img src='https://qu.ax/KYyBq.jpg'/></a>
 
 ---
 
